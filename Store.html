@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>★彡[ᴛᴇᴄʜɴɪᴄᴀʟ ꜱᴛᴏʀᴇ]彡★</title> 
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #145;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav {
+            background-color: #579;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 16px;
+            margin: 0 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #3c7;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .car {
+            width: 25%;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .car:hover {
+            transform: translateY(-5px);
+        }
+        .car img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #145;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        footer input[type="email"] {
+            padding: 8px;
+            width: 200px;
+            border-radius: 5px;
+            border: none;
+        }
+        footer input[type="submit"] {
+            padding: 8px 16px;
+            border: none;
+            background-color: #579;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        footer input[type="submit"]:hover {
+            background-color: #3c7;
+        }
+    </style>
+</head>
+<body>
+    <header><h1>★彡[ᴛᴇᴄʜɪɴɪᴄᴀʟ ꜱᴛᴏʀᴇ]彡★</h1></header>
+    <nav>
+        <a href="#">🅷 🅾 🅼 🅴</a>
+        <a href="#">🅿 🅴 🆂 🆀 🆄 🅸 🆂 🅰 🔍</a>
+        <a href="#">🅲 🅾 🅼 🅿 🆄 🆃 🅰 🅳 🅾 🆁 🅴 🆂</a>
+        <a href="#">🅲 🅴 🅻 🆄 🅻 🅰 🆁 🅴 🆂/🆃 🅰 🅱 🅻 🅴 🆃 🆂</a>
+        <a href="#">🖱️ 🅿 🅴 🆁 🅸 🅵 é 🆁 🅸 🅲 🅾 🆂 ⌨️</a>
+    </nav>
+    <div class="container">
+        <div class="car" onclick="location.href='detalhes_fone_red_dragon.html';" style="cursor: pointer;">
+            <h3>Fone Red Dragon</h3>
+            <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQnzmVnVzauTWXMsHvWSTbbAWSohf7MqYmh8peLXBfHEabsV9fKKPM5SCAd7RnNngn5yqx1V6TNv0_KIdC8MjTpfJ-D69qArT1AnG2shzSJ6hScjB7tmlTx0OnaC9bf0TWw2kW_uhTKlRk&usqp=CAc" alt="Fone Red Dragon">
+            <p>R$ 199,99</p>
+        </div>
+        <div class="car" onclick="location.href='detalhes_notebook_positivo.html';" style="cursor: pointer;">
+            <h3>Notebook Positivo</h3>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/71uu2StpXUL._AC_UL232_SR232,232_.jpg" alt="Notebook Positivo">
+            <p>R$ 2999,99</p>
+        </div>
+        <div class="car" onclick="location.href='detalhes_iphone_15_plus.html';" style="cursor: pointer;">
+            <h3>iPhone 15 Plus</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7OQBcO_1UXBPf-Ox0d94oBrDr0SdlrCpWdiDwow4E86oaZAwI0xqro5pfF59e0FGMRgM&usqp=CAU" alt="iPhone 15 Pro">
+            <p>R$ 5999,99</p>
+        </div>
+        <div class="car" onclick="location.href='detalhes_teclado_gamer.html';" style="cursor: pointer;">
+            <h3>Teclado Gamer</h3>
+            <img src="https://cdn.shoppub.io/cdn-cgi/image/w=400,h=400,q=80,f=auto/oficinadosbits/media/uploads/produtos/foto/gpsxfqay/file.png" alt="Teclado Gamer">
+            <p>R$ 299,99</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Technical Store. Todos os direitos reservados.</p>
+        <form action="#" method="post">
+            <label for="email">Receba nossas novidades por e-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Seu e-mail">
+            <input type="submit" value="Inscrever">
+        </form>
+    </footer>
+</body>
+</html>
